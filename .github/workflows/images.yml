@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/portainer/portainer-ce:alpine-sts docker://registry.cn-hangzhou.aliyuncs.com/studt_zyj/portainer
+         skopeo copy docker://docker.io/portainer/portainer-ce:alpine-sts docker://registry.cn-hangzhou.aliyuncs.com/study_zyj/portainer
          
 
