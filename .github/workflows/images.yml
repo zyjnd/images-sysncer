@@ -22,7 +22,7 @@ jobs:
       with:
         registry: registry.cn-hangzhou.aliyuncs.com
         username: "${{ secrets.ALIYUN_REGISTRY_USER }}"
-        password: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}" 
+        password: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"  
         logout: false
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
