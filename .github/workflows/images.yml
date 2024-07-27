@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/cloudflare/cloudflared@sha256:50283cb49f1e84efaee5207545cec9bb56afd0339795a5f6984e04ada3e631ae docker://registry.cn-hangzhou.aliyuncs.com/dbfu/cloudflared:latest
+         skopeo copy docker://docker.io/portainer/portainer-ce:alpine-sts docker://registry.cn-hangzhou.aliyuncs.com/studt_zyj/portainer
          
 
